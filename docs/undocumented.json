@@ -1,0 +1,12 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/piotrek/Code/Swift/Libraries/DuckSwift/DuckSwiftThunk/Sources/DuckSwiftThunk/ThunkMiddleware.swift",
+      "line": 13,
+      "symbol": "ThunkMiddleware.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/piotrek/Code/Swift/Libraries/DuckSwift/DuckSwiftThunk"
+}
