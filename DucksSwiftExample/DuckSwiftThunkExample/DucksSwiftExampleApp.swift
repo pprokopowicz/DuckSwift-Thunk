@@ -7,7 +7,7 @@
 
 import SwiftUI
 import DuckSwift
-import DuckSwift_Thunk
+import DuckSwiftThunk
 
 private let store = Store(reducer: reducer, state: AppState(), middlewares: [ThunkMiddleware()])
 

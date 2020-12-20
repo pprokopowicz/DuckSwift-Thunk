@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2428ACB225900CEA0036BAED /* DuckSwiftThunk in Frameworks */ = {isa = PBXBuildFile; productRef = 2428ACB125900CEA0036BAED /* DuckSwiftThunk */; };
 		245B1F7A2527BBE000E6C71A /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245B1F792527BBE000E6C71A /* Reducer.swift */; };
 		245B1F7E2527BC0200E6C71A /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245B1F7D2527BC0200E6C71A /* AppState.swift */; };
 		245B1F8D2527C27900E6C71A /* FetchTodosThunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245B1F8C2527C27900E6C71A /* FetchTodosThunk.swift */; };
@@ -14,7 +15,6 @@
 		246871B42527BB0E00F44511 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246871B32527BB0E00F44511 /* ContentView.swift */; };
 		246871B62527BB0F00F44511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 246871B52527BB0F00F44511 /* Assets.xcassets */; };
 		246871B92527BB0F00F44511 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 246871B82527BB0F00F44511 /* Preview Assets.xcassets */; };
-		2486D5DB2545E8EC004CB43B /* DuckSwift-Thunk in Frameworks */ = {isa = PBXBuildFile; productRef = 2486D5DA2545E8EC004CB43B /* DuckSwift-Thunk */; };
 		248EE0E1252A192E00AB654E /* TodosService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248EE0E0252A192E00AB654E /* TodosService.swift */; };
 		248EE0E5252A195000AB654E /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248EE0E4252A195000AB654E /* TodoModel.swift */; };
 		248EE0EA252A1AC300AB654E /* SetTodosAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248EE0E9252A1AC300AB654E /* SetTodosAction.swift */; };
@@ -25,7 +25,7 @@
 		245B1F792527BBE000E6C71A /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
 		245B1F7D2527BC0200E6C71A /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		245B1F8C2527C27900E6C71A /* FetchTodosThunk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchTodosThunk.swift; sourceTree = "<group>"; };
-		246871AE2527BB0E00F44511 /* DucksSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DucksSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		246871AE2527BB0E00F44511 /* DuckSwiftThunkExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuckSwiftThunkExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		246871B12527BB0E00F44511 /* DucksSwiftExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DucksSwiftExampleApp.swift; sourceTree = "<group>"; };
 		246871B32527BB0E00F44511 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		246871B52527BB0F00F44511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2486D5DB2545E8EC004CB43B /* DuckSwift-Thunk in Frameworks */,
+				2428ACB225900CEA0036BAED /* DuckSwiftThunk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				24264A1B2527CD1300638833 /* DucksSwift */,
-				246871B02527BB0E00F44511 /* DucksSwiftExample */,
+				246871B02527BB0E00F44511 /* DuckSwiftThunkExample */,
 				246871AF2527BB0E00F44511 /* Products */,
 				246871C52527BBAB00F44511 /* Frameworks */,
 			);
@@ -72,12 +72,12 @@
 		246871AF2527BB0E00F44511 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				246871AE2527BB0E00F44511 /* DucksSwiftExample.app */,
+				246871AE2527BB0E00F44511 /* DuckSwiftThunkExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		246871B02527BB0E00F44511 /* DucksSwiftExample */ = {
+		246871B02527BB0E00F44511 /* DuckSwiftThunkExample */ = {
 			isa = PBXGroup;
 			children = (
 				248EE0E3252A193200AB654E /* Service */,
@@ -88,7 +88,7 @@
 				246871BA2527BB0F00F44511 /* Info.plist */,
 				246871B72527BB0F00F44511 /* Preview Content */,
 			);
-			path = DucksSwiftExample;
+			path = DuckSwiftThunkExample;
 			sourceTree = "<group>";
 		};
 		246871B72527BB0F00F44511 /* Preview Content */ = {
@@ -118,9 +118,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		246871AD2527BB0E00F44511 /* DucksSwiftExample */ = {
+		246871AD2527BB0E00F44511 /* DuckSwiftThunkExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 246871BD2527BB0F00F44511 /* Build configuration list for PBXNativeTarget "DucksSwiftExample" */;
+			buildConfigurationList = 246871BD2527BB0F00F44511 /* Build configuration list for PBXNativeTarget "DuckSwiftThunkExample" */;
 			buildPhases = (
 				246871AA2527BB0E00F44511 /* Sources */,
 				246871AB2527BB0E00F44511 /* Frameworks */,
@@ -130,12 +130,12 @@
 			);
 			dependencies = (
 			);
-			name = DucksSwiftExample;
+			name = DuckSwiftThunkExample;
 			packageProductDependencies = (
-				2486D5DA2545E8EC004CB43B /* DuckSwift-Thunk */,
+				2428ACB125900CEA0036BAED /* DuckSwiftThunk */,
 			);
 			productName = DucksSwiftExample;
-			productReference = 246871AE2527BB0E00F44511 /* DucksSwiftExample.app */;
+			productReference = 246871AE2527BB0E00F44511 /* DuckSwiftThunkExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -152,7 +152,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 246871A92527BB0E00F44511 /* Build configuration list for PBXProject "DucksSwiftExample" */;
+			buildConfigurationList = 246871A92527BB0E00F44511 /* Build configuration list for PBXProject "DuckSwiftThunkExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -165,7 +165,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				246871AD2527BB0E00F44511 /* DucksSwiftExample */,
+				246871AD2527BB0E00F44511 /* DuckSwiftThunkExample */,
 			);
 		};
 /* End PBXProject section */
@@ -323,16 +323,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"DucksSwiftExample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DuckSwiftThunkExample/Preview Content\"";
 				DEVELOPMENT_TEAM = NE64KXLJA8;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = DucksSwiftExample/Info.plist;
+				INFOPLIST_FILE = DuckSwiftThunkExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pprokopowicz.DucksSwiftExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pprokopowicz.DuckSwiftExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -345,16 +345,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"DucksSwiftExample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DuckSwiftThunkExample/Preview Content\"";
 				DEVELOPMENT_TEAM = NE64KXLJA8;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = DucksSwiftExample/Info.plist;
+				INFOPLIST_FILE = DuckSwiftThunkExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pprokopowicz.DucksSwiftExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pprokopowicz.DuckSwiftExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -364,7 +364,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		246871A92527BB0E00F44511 /* Build configuration list for PBXProject "DucksSwiftExample" */ = {
+		246871A92527BB0E00F44511 /* Build configuration list for PBXProject "DuckSwiftThunkExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				246871BB2527BB0F00F44511 /* Debug */,
@@ -373,7 +373,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		246871BD2527BB0F00F44511 /* Build configuration list for PBXNativeTarget "DucksSwiftExample" */ = {
+		246871BD2527BB0F00F44511 /* Build configuration list for PBXNativeTarget "DuckSwiftThunkExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				246871BE2527BB0F00F44511 /* Debug */,
@@ -385,9 +385,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2486D5DA2545E8EC004CB43B /* DuckSwift-Thunk */ = {
+		2428ACB125900CEA0036BAED /* DuckSwiftThunk */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = "DuckSwift-Thunk";
+			productName = DuckSwiftThunk;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

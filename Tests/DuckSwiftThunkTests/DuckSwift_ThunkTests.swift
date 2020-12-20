@@ -1,7 +1,7 @@
 import XCTest
-@testable import DuckSwift_Thunk
+@testable import DuckSwiftThunk
 
-final class DuckSwift_ThunkTests: XCTestCase {
+final class DuckSwiftThunkTests: XCTestCase {
     func testExample() {}
 
     static var allTests = [

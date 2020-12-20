@@ -7,7 +7,7 @@
 
 import Foundation
 import DuckSwift
-import DuckSwift_Thunk
+import DuckSwiftThunk
 
 struct FetchTodosThunk: Thunk {
     
